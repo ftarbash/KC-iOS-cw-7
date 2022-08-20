@@ -29,7 +29,7 @@ struct ContentView: View {
             HStack{
                 Text("عدد الطلبة المسجلين  :3").font(.system(size: 30, weight: .regular))
                 Image(systemName: "info.circle.fill").font(.system(size: 30)).foregroundColor(.blue.opacity(0.5))
-            }.padding().border(Color.white, width: 6)
+            }.padding().border(Color.white, width: 6).cornerRadius(10)
     }
     }
     }
